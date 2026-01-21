@@ -1,0 +1,13 @@
+{
+  "apiVersion": 2,
+  "name": "kanopi/notice-card",
+  "title": "Notice Card",
+  "category": "widgets",
+  "icon": "info",
+  "attributes": {
+    "title": { "type": "string", "default": "Notice" },
+    "message": { "type": "string", "default": "My name is Abdul" },
+    "variant": { "type": "string", "default": "info" }
+  },
+  "editorScript": "file:./index.js"
+}
